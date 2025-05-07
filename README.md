@@ -1,23 +1,45 @@
-Description:
+This repository contains the implementation of a Crop and Fertilizer Recommendation System using Machine Learning, developed as part of the Edunet Internship program. This system takes in key agricultural parameters and helps predict the most suitable fertilizer for given crop and soil conditions.
 
-This repository contains the implementation of a Crop and Fertilizer Recommendation System using Machine Learning. The system utilizes a dataset to suggest appropriate fertilizers for various crops based on factors like soil type and environmental conditions. Note: The CSV dataset has been removed for privacy reasons.
+Files Included:
+Week_2.ipynb:
+A Google Colab notebook that includes:
 
-Files:
+Data Upload & Exploration
 
-crop_recommendation.ipynb: The main Google Colab notebook containing code for loading, exploring, and analyzing the dataset. It includes steps for data preprocessing and setting up the model.
+Feature Analysis
 
-WEEK-1.docx: A Word document containing theory questions related to Machine Learning concepts, including explanations of ML, Supervised ML, Regression, and Classification.
+Visualization
 
-Installation:
+Machine Learning Model Implementation
 
-Clone the Repository: https://github.com/KShriyaRao/EDUNET_WEEK-1.git
+Fertilizer Recommendation Based on User Input
 
-Open Google Colab: Open the crop_recommendation.ipynb in Google Colab to start running the code.
+WEEK-1.docx:
+A Word document covering theoretical concepts from Week 1:
 
-Upload the Dataset:Please upload your own CSV file manually in Colab before running the code.
+Introduction to ML
 
-Usage:
+Supervised Learning
 
-The notebook is designed to load and preprocess the dataset, followed by applying machine learning algorithms to recommend fertilizers for different crops.
+Regression vs Classification
 
-Ensure that you upload your dataset in Colab before running the code.
+How to Use:
+Clone the Repo:
+
+bash
+Copy
+Edit
+git clone https://github.com/KShriyaRao/EDUNET_WEEK-1.git
+Open Google Colab:
+
+Upload and open Week_2.ipynb.
+
+Upload Dataset:
+
+Use the upload button in Colab (Files tab on the left) to upload your .csv file manually (e.g., Crop_recommendation.csv).
+
+Run Notebook Cells:
+
+Follow along with each section.
+
+Run cells sequentially to load data, preprocess it, and generate fertilizer recommendations.
