@@ -1,45 +1,77 @@
-This repository contains the implementation of a Crop and Fertilizer Recommendation System using Machine Learning, developed as part of the Edunet Internship program. This system takes in key agricultural parameters and helps predict the most suitable fertilizer for given crop and soil conditions.
 
-Files Included:
 
-Week_2.ipynb:
+#  Crop and Fertilizer Recommendation System Using Machine Learning
 
-A Google Colab notebook that includes:
+This project, developed during the Edunet Internship, leverages machine learning to provide data-driven recommendations for optimal crop selection and fertilizer application based on soil and environmental parameters.
 
-Data Upload & Exploration
 
-Feature Analysis
+## Repository Structure
 
-Visualization
+* **`Week_2.ipynb`**: Notebook encompassing data preprocessing, exploratory data analysis, model training, and evaluation for crop recommendation.
 
-Machine Learning Model Implementation
+* **`Fertilizer_recommendation.ipynb`**: Notebook dedicated to fertilizer recommendation logic, including data handling and model implementation.
 
-Fertilizer Recommendation Based on User Input
+* **`crop_model.sav`**: Serialized machine learning model for crop prediction.
 
-WEEK-1.docx:
+* **`fertilizer_model.sav`**: Serialized machine learning model for fertilizer recommendation.
 
-A Word document covering theoretical concepts from Week 1:
+* **`crop_scaler.sav`**: Scaler object used for normalizing crop-related input features.
 
-Introduction to ML
+* **`fertilizer_scaler.sav`**: Scaler object used for normalizing fertilizer-related input features.
 
-Supervised Learning
+* **`Crop_recommendation.csv`**: Dataset containing soil and environmental parameters for various crops.
 
-Regression vs Classification
+* **`Fertilizer Prediction.csv`**: Dataset detailing fertilizer requirements based on soil nutrients and crop types.
 
-How to Use:
+* **`WEEK-1.docx`**: Document outlining theoretical concepts and foundational knowledge pertinent to the project.
 
-Clone the Repo: https://github.com/KShriyaRao/EDUNET_INTERNSHIP.git
 
-Open Google Colab:
+## Project Overview
 
-Upload and open Week_2.ipynb.
+The system is designed to assist farmers and agricultural stakeholders in making informed decisions by:
 
-Upload Dataset:
+* **Analyzing Soil and Environmental Data**: Utilizing parameters such as nitrogen (N), phosphorus (P), potassium (K), temperature, humidity, pH, and rainfall.
 
-Use the upload button in Colab (Files tab on the left) to upload your .csv file manually (e.g., Crop_recommendation.csv).
+* **Predicting Suitable Crops**: Employing machine learning models to recommend crops best suited to the given conditions.
 
-Run Notebook Cells:
+* **Recommending Fertilizers**: Suggesting appropriate fertilizers based on soil nutrient deficiencies and crop requirements.
 
-Follow along with each section.
 
-Run cells sequentially to load data, preprocess it, and generate fertilizer recommendations.
+
+## Technologies Used
+
+* **Programming Language**: Python([Medium][1])
+
+* **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+
+* **Development Environment**: Jupyter Notebook, Google Colab
+
+* **Machine Learning Algorithms**: Decision Tree, Random Forest, K-Nearest Neighbors (KNN)
+
+ Getting Started
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/KShriyaRao/EDUNET_INTERNSHIP.git
+   ```
+2. **Navigate to the Project Directory**:
+
+   ```bash
+   cd EDUNET_INTERNSHIP
+   ```
+3. **Install Required Libraries**:
+
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib seaborn
+   ```
+4. **Open Notebooks**:
+
+   * `Week_2.ipynb` for crop recommendation.
+   * `Fertilizer_recommendation.ipynb` for fertilizer recommendation.
+
+
+## Results
+
+The implemented models demonstrate effective predictions for both crop selection and fertilizer recommendations, enhancing decision-making in agricultural practices.
+
